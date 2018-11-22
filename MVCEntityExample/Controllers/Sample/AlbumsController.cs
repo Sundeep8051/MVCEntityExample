@@ -14,7 +14,7 @@ namespace MVCEntityExample.Controllers.Sample
     {
         private MusicStoreDBContext db = new MusicStoreDBContext();
 
-        // GET: Albums index action
+        // GET: Albums
         public ActionResult Index()
         {
             return View(db.Albums.ToList());
