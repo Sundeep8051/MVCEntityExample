@@ -20,7 +20,7 @@ namespace MVCEntityExample.Controllers.Sample
             return View(db.Albums.ToList());
         }
 
-        // GET: Albums/Details/1
+        // GET: Albums/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
