@@ -162,5 +162,3 @@ H:\My Lab\visualstudio\MVCEntityExample\MVCEntityExample\bin\Microsoft.Owin.Secu
 H:\My Lab\visualstudio\MVCEntityExample\MVCEntityExample\obj\Debug\MVCEntityExample.csprojResolveAssemblyReference.cache
 H:\My Lab\visualstudio\MVCEntityExample\MVCEntityExample\obj\Debug\MVCEntityExample.dll
 H:\My Lab\visualstudio\MVCEntityExample\MVCEntityExample\obj\Debug\MVCEntityExample.pdb
-H:\My Lab\visualstudio\MVCEntityExample\MVCEntityExample\obj\Debug\MVCEntityExample.Migrations.InitialCreate.resources
-H:\My Lab\visualstudio\MVCEntityExample\MVCEntityExample\obj\Debug\MVCEntityExample.csproj.GenerateResource.Cache

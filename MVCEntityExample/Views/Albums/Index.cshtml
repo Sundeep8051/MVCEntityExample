@@ -17,7 +17,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Price)
         </th>
-        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.Artist)
+        </th>
     </tr>
 
 @foreach (var item in Model) {
@@ -29,6 +31,9 @@
             @Html.DisplayFor(modelItem => item.Price)
         </td>
         <td>
+            @Html.DisplayFor(modelItem => item.Artist.Name)
+        </td>
+        <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.AlbumId }) |
             @Html.ActionLink("Details", "Details", new { id=item.AlbumId }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.AlbumId })
@@ -37,3 +42,7 @@
 }
 
 </table>
+
+<div>
+    @Html.ActionLink("Artists Page", "index", "Artists")
+</div>

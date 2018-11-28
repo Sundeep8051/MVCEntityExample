@@ -16,5 +16,7 @@ namespace MVCEntityExample.Models.Sample
         public string Title { get; set; }
 
         public int Price { get; set; }
+
+        public virtual Artist Artist { get; set; }
     }
 }

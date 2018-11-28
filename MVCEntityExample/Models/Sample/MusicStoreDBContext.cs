@@ -9,5 +9,7 @@ namespace MVCEntityExample.Models.Sample
     public class MusicStoreDBContext : DbContext
     {
         public DbSet<Album> Albums { get; set; }
+
+        public DbSet<Artist> Artists { get; set; }
     }
 }
